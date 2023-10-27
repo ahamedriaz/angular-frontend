@@ -1,0 +1,35 @@
+.red-color {
+    color:red;
+}
+
+.pink-color {
+    color:purple;
+}
+
+.green-color {
+    color:green;
+}
+
+@media  (min-width:1100px) and (max-width:1200px) {
+ .media{
+    background-color: red;
+ }
+}
+ @media  (min-width:300px) and (max-width:999px) {
+    .media{
+       background-color: green;
+    }
+    
+}
+@media (min-width:300px) and (max-width:853px){
+    .container{
+
+        width:100%
+    }
+}
+@media  (min-width:300px) and (max-width:700px) {
+    .media{
+       background-color: yellow;
+    }
+    
+}
